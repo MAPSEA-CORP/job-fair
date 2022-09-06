@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+article {
+  margin: 0 auto;
+}
+
+.poster {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  object-fit: fill;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-container a {
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.job-info-btn {
+  background: #a5cf5a;
+  margin-right: 5px;
+}
+
+.apply-btn {
+  background: #64afed;
+  margin-left: 5px;
+}
